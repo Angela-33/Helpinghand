@@ -3,6 +3,7 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
  */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Parisienne&display=swap');
 
 body {
   font-family: 'Roboto'; /* change font here for body text */
@@ -22,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway'; /* change font here for header text */
+  font-family:  'raleway'; /* change font here for header text */
 }
 
 p { /* attributes for what the paragraph text should look like */
@@ -52,6 +53,7 @@ p { /* attributes for what the paragraph text should look like */
   font-size: 5rem;
   font-weight: 600;
   color: #DB1F48; /* color of lower header text */
+  font-family: 'Cinzel', serif;
   text-transform: uppercase; /* capitalize header text */
 }
 
@@ -123,11 +125,12 @@ p { /* attributes for what the paragraph text should look like */
 #mainNav {
   background-color: rgba(0, 67, 105, 0.9); /* change nav bar background color here. Remember that
   colors can be in hex or rgba format. The hex code for this color is #5d6c89 */
-  font-family: 'Raleway';
+  font-family:  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Parisienne&display=swap');;
 }
 
 #mainNav .navbar-brand {
   color: #DB1F48; /* when the web app is adjusted, the website header responds to this attribute */
+
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
