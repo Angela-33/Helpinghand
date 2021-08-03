@@ -333,3 +333,7 @@ p { /* attributes for what the paragraph text should look like */
 .font-weight-light {
   font-weight: 100 !important;
 }
+
+.emailbutton{
+  background-color: hotpink;
+}
