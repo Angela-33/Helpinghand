@@ -336,4 +336,5 @@ p { /* attributes for what the paragraph text should look like */
 
 .emailbutton{
   background-color: hotpink;
+  text-align: center;
 }
