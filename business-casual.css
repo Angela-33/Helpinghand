@@ -84,6 +84,7 @@ p { /* attributes for what the paragraph text should look like */
   font-size: 3rem;
   color: #000000; /* color of lower header text */
   font-weight: 600;
+  text-align: center;
 }
 
 /* color and text attributes of CTA boxes that align left*/
