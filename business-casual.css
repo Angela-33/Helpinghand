@@ -161,9 +161,9 @@ p { /* attributes for what the paragraph text should look like */
 
 .btn-xl {
   font-weight: 700;
-  font-size: 0.8rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  font-size: 1.3rem;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -176,13 +176,13 @@ p { /* attributes for what the paragraph text should look like */
 
 @media (min-width: 992px) {
   .intro .intro-img-right {
-    width: 40%; /* changes size of image */
+    width: 45%; /* changes size of image */
     float: right; /* changes alignment of image */
     padding-bottom: 5rem;
   }
 
   .intro .intro-img-left {
-    width: 40%; /* changes size of image */
+    width: 45%; /* changes size of image */
     float: left; /* changes alignment of image */
     padding-bottom: 5rem;
 
