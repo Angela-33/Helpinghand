@@ -339,3 +339,6 @@ p { /* attributes for what the paragraph text should look like */
   background-color: hotpink;
   text-align: center;
 }
+.brain{
+  width: 900px;
+}
