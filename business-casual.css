@@ -176,13 +176,13 @@ p { /* attributes for what the paragraph text should look like */
 
 @media (min-width: 992px) {
   .intro .intro-img-right {
-    width: 75%; /* changes size of image */
+    width: 40%; /* changes size of image */
     float: right; /* changes alignment of image */
     padding-bottom: 5rem;
   }
 
   .intro .intro-img-left {
-    width: 75%; /* changes size of image */
+    width: 40%; /* changes size of image */
     float: left; /* changes alignment of image */
     padding-bottom: 5rem;
 
