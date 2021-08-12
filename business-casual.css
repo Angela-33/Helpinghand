@@ -127,10 +127,12 @@ p { /* attributes for what the paragraph text should look like */
   background-color: rgba(0, 67, 105, 0.9); /* change nav bar background color here. Remember that
   colors can be in hex or rgba format. The hex code for this color is #5d6c89 */
   font-family:  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Parisienne&display=swap');;
+  font-size: 50px;
 }
 
 #mainNav .navbar-brand {
   color: #DB1F48; /* when the web app is adjusted, the website header responds to this attribute */
+
 
 }
 
