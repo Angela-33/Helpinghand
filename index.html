@@ -7,8 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
-  <title>Helping Hands Initiative</title>
+  <script type="text/javascript">
+    function makebig(argument) {
+    var button=document.getElementById("help");
+    button.style.padding="5rem";
+    }
+  </script>
+    <title>Helping Hands Initiative</title>
 
   <!-- Bootstrap core CSS -->
   <link href="bootstrap.min.css" rel="stylesheet">
@@ -103,7 +108,8 @@
           <p class="text-right mb-3"> 
           </p>
           <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="contact.html">Let Us Help</a>
+            <a onmouseover="makebig()" id="help"
+              class="btn btn-primary btn-xl" href="contact.html">Let Us Help</a>
           </div>
         </div>
       </div>
