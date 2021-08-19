@@ -12,6 +12,10 @@
     var button=document.getElementById("help");
     button.style.padding="5rem";
     }
+    function makesmall(){
+      var button=document.getElementById("help");
+      button.style.padding="2rem";
+    }
   </script>
     <title>Helping Hands Initiative</title>
 
@@ -108,7 +112,7 @@
           <p class="text-right mb-3"> 
           </p>
           <div class="intro-button mx-auto">
-            <a onmouseover="makebig()" id="help"
+            <a onmouseover="makebig()" id="help" onmouseout="makesmall()" 
               class="btn btn-primary btn-xl" href="contact.html">Let Us Help</a>
           </div>
         </div>
