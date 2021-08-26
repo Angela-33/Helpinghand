@@ -362,4 +362,6 @@ font-size: 40px;
 .strong{
 width: 90%;
 }
-
+.video{
+  z-index: 10;
+}
